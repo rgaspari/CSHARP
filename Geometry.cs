@@ -4,8 +4,8 @@ namespace Geometry
 {
 	public class Coordinate
 	{
-		protected double x,y,z;
-		protected double distance_from_origin;
+		private double x,y,z;
+		private double distance_from_origin;
 
 		public Coordinate (double x, double y, double z)
 		{
